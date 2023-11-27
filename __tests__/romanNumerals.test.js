@@ -12,4 +12,8 @@ describe (romanNumerals, () => {
   test("It will not accept input of double L (LL)", () => {
     expect(romanNumerals("ll")).toEqual("Invalid input. Numeral L should only occur once per input.");
   });
+
+  test("It will not accept input of double D (DD)", () => {
+    expect(romanNumerals("dd")).toEqual("Invalid input. Numeral D should only occur once per input.");
+  });
 })
