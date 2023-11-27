@@ -8,4 +8,8 @@ describe (romanNumerals, () => {
   test("It will not accept input of double v (vv)", () => {
     expect(romanNumerals("vv")).toEqual("Invalid input. Numeral V should only occur once per input.");
   });
+
+  test("It will not accept input of double L (LL)", () => {
+    expect(romanNumerals("ll")).toEqual("Invalid input. Numeral L should only occur once per input.");
+  });
 })
