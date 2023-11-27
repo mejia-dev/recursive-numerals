@@ -23,7 +23,7 @@ module.exports = {
       verbose: true
     }),
     new HtmlWebpackPlugin({
-      title: 'Shape Tracker',
+      title: 'Recursive Roman Numerals',
       template: './src/index.html',
       inject: 'body'
     })
