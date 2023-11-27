@@ -5,5 +5,7 @@ export const romanNumerals = (input) => {
     return "Invalid input. Numeral V should only occur once per input."
   } else if (input.includes("ll")) {
     return "Invalid input. Numeral L should only occur once per input."
+  } else if (input.includes("dd")) { 
+    return "Invalid input. Numeral D should only occur once per input."
   }
 }
